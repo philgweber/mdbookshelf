@@ -45,26 +45,31 @@ body {
 .book {
     width: 150px;
     height: 200px;
-       
+
     border: 2px solid black;
-    
+
     position: relative;
     display:inline-block;
-    
+
     margin-left: 10px;
     margin-right: 10px;
+    background-image: url('cover.png');
+    background-size: 100% 100%;
 }
 
 .book:hover {
-    background-color: rgb(240,240,240);
+    border-color: gray; 
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    background-image: url('cover2.png');
 }
 
 .book p {
     text-align: center;
+    color: white;
     white-space: normal;
     
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
