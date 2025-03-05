@@ -9,7 +9,7 @@ edition = "2021"
 log = "0.4.5"
 simple_logger = "2.2.0"
 
-mdbook = "0.4.18"
+mdbook = "0.4.25"
 walkdir = "2"
 handlebars = "4.0"
 
